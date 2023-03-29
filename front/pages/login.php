@@ -12,7 +12,17 @@
 
 <body>
     <header>
-
+        <nav>
+            <ul>
+                <li><a href="../../index.php">Accueil</a></li>
+                <li><a href="/front/pages/profile.php">Profil</a></li>
+                <li><a href="/front/pages/blogs.php">Blogs</a></li>
+                <li><a href="/front/pages/messages.php">Messages</a></li>
+                <li><a href="/front/pages/search.php">Recherche</a></li>
+                <li><a href="/front/pages/parameters.php">Paramètres</a></li>
+                <li><a href="/front/pages/contact.php">Nous contacter</a></li>
+            </ul>
+        </nav>
     </header>
     <div class="container">
         <form action="" method="post" name="form-register" class="form-register">
