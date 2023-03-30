@@ -1,38 +1,24 @@
-/* Partie Page d'accueil (index) */
+/* Partie commune */
 
-/* Partie Page de connexion/inscription (login) */
-
-
-
-.form-register{
-    display: none;
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
 }
 
-.btn-registerform{
-    border: none;
-    background-color: white;
-    color: blue;
+/* nav ul {
+    display: flex;
+    list-style: none;
+    margin: 0;
+    padding: 0;
+} */
+/* 
+nav li {
+    margin: 1rem;
+} */
+.icone-compte {
+    width: 5vw;
+    height: 5vh;
+    border-radius: 50%;
+    border: 2px solid #000;
 }
-.btn-registerform:hover{
-    color: orange;
-}
-
-.btn-loginform{
-    border: none;
-    background-color: white;
-    color: blue;
-}
-.btn-loginform:hover{
-    color: orange;
-}
-/* Partie Page Profile (profil) */
-
-/* Partie Page de recherche (search) */
-
-/* Partie Page paramètres (parameters) */
-
-/* Partie Page contact et mentions légales (contact) */
-
-/* Partie Page messagerie (messages) */
-
-/* Partie Page blogs (blogs) */
