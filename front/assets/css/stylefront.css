@@ -1,10 +1,17 @@
 /* Partie commune */
 
 header {
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
+    /* display: flex;
+    justify-content: space-between; */
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+    place-items: center;
 }
+header img {
+    width: 250px;
+    height: auto;
+}
+
 .container {
     min-height: 100vh;
 }

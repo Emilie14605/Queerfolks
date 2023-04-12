@@ -24,7 +24,7 @@
                 <li><a href="/front/pages/contact.php">Nous contacter</a></li>
             </ul>
         </nav>
-        <img src="" alt="Logo">
+        <img src="front/assets/img/logo.jpeg" alt="Logo">
         <img src="front/icones/compte.svg" alt="Compte" class="icone-compte">
     </header>
     <div class="container messageaccueil">
